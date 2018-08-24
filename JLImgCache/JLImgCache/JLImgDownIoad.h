@@ -9,8 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 @interface JLImgDownIoad : NSObject
-@property (nonatomic, copy) void(^JLWebImageDownloaderProgressBlock)(NSInteger prosize,NSInteger competesize) ;
-@property (nonatomic, copy) void(^JLWebImageDownCompleteBlock)( UIImage *image, NSError *error) ;
--(void)downIoadImageForUrl:(NSString *)url;
+@property (nonatomic, copy,nullable) void(^JLWebImageDownloaderProgressBlock)(NSInteger prosize,NSInteger competesize) ;
+@property (nonatomic, copy) void(^ _Nullable JLWebImageDownCompleteBlock)(  UIImage * _Nullable image,  NSError *_Nullable error) ;
+-(void)downIoadImageForUrl:(nullable NSString *)url;
 +(nonnull instancetype)sharedImageCache;
 @end
