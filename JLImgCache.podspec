@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/hewei001/JLImgCache"
   s.license      =  { :type => 'MIT'}
   s.author             = { "wang" => "729901489@qq.com" }
-  s.source       = { :git => "https://github.com/hewei001/JLImgCache.git", :tag => s.version}
+  s.source       = { :git => "https://github.com/hewei001/JLImgCache.git", :tag => "v#{s.version}"}
   s.requires_arc = true
   s.source_files  = "JLImgCache/JLImgCache/*.{h,m}"
 #  s.exclude_files = "Classes/Exclude"
