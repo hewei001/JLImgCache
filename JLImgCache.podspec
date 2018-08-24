@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "JLImgCache"
+  s.name         = 'JLImgCache'
   s.version      = "0.0.1"
   s.summary      = "A JLImgCacheDemo."
   s.frameworks = "Foundation", "UIKit","UIKit/UIKit.h"
