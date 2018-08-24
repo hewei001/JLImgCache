@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author             = { "wang" => "729901489@qq.com" }
   s.source       = { :git => "https://github.com/hewei001/JLImgCache.git", :tag => s.version}
   s.requires_arc = true
-  s.source_files  = "JLImgCache/JLImgCache/JLImgCache/*.{h,m}"
+  s.source_files  = "JLImgCache/JLImgCache/*.{h,m}"
 #  s.exclude_files = "Classes/Exclude"
 
 end
