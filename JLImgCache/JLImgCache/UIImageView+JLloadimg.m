@@ -15,7 +15,7 @@
 -(void)JLloadimgwith:(NSString *)imgurl andplaceholderImage:(NSString *)placeholderImage{
     self.image =[UIImage imageNamed:placeholderImage];
     //下载图片
-    //下载之前先判断本地有无缓存有从缓存中取
+    //下载之前先判断本地有无缓存有从缓存中取asdasdasd
 
   BOOL fileis =  [[JLImgCache sharedImageCache] lookForImageWithUrl:imgurl];
     if (fileis) {
