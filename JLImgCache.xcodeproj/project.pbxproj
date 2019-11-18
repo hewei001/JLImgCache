@@ -18,6 +18,7 @@
 		3DD0312E212FE96600BF47BF /* JLImgDownIoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03128212FE96600BF47BF /* JLImgDownIoad.m */; };
 		3DD0312F212FE96600BF47BF /* JLImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03129212FE96600BF47BF /* JLImgCache.m */; };
 		3DD03130212FE96600BF47BF /* UIImageView+JLloadimg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0312A212FE96600BF47BF /* UIImageView+JLloadimg.m */; };
+		784A24012382A2D3003322AB /* JLImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A24002382A2D3003322AB /* JLImgView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		3DD0312B212FE96600BF47BF /* JLImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgCache.h; sourceTree = "<group>"; };
 		3DD0312C212FE96600BF47BF /* JLImgDownIoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgDownIoad.h; sourceTree = "<group>"; };
 		3DD0312D212FE96600BF47BF /* UIImageView+JLloadimg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JLloadimg.h"; sourceTree = "<group>"; };
+		784A23FF2382A2D3003322AB /* JLImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgView.h; sourceTree = "<group>"; };
+		784A24002382A2D3003322AB /* JLImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				3DD0312B212FE96600BF47BF /* JLImgCache.h */,
 				3DD0312C212FE96600BF47BF /* JLImgDownIoad.h */,
 				3DD0312D212FE96600BF47BF /* UIImageView+JLloadimg.h */,
+				784A23FF2382A2D3003322AB /* JLImgView.h */,
+				784A24002382A2D3003322AB /* JLImgView.m */,
 			);
 			path = JLImgCache;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				3DD030FA212FE92B00BF47BF /* ViewController.m in Sources */,
 				3DD0312F212FE96600BF47BF /* JLImgCache.m in Sources */,
 				3DD03105212FE92C00BF47BF /* main.m in Sources */,
+				784A24012382A2D3003322AB /* JLImgView.m in Sources */,
 				3DD0312E212FE96600BF47BF /* JLImgDownIoad.m in Sources */,
 				3DD03130212FE96600BF47BF /* UIImageView+JLloadimg.m in Sources */,
 				3DD030F7212FE92B00BF47BF /* AppDelegate.m in Sources */,
