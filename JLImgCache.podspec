@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'JLImgCache'
-  s.version      = "1.0.4"
+  s.version      = '1.0.8'
   s.summary      = "A JLImgCacheDemo."
   s.frameworks = "Foundation", "UIKit"
   s.description  = <<-DESC
@@ -21,7 +21,16 @@ Pod::Spec.new do |s|
   s.author             = { "wang" => "729901489@qq.com" }
   s.source       = { :git => "https://github.com/hewei001/JLImgCache.git", :tag => "v#{s.version}"}
   s.requires_arc = true
-  s.source_files  = "JLImgCache/JLImgCache/*.{h,m}"
-#  s.exclude_files = "Classes/Exclude"
+  
+  s.subspec 'Classs1234' do |ss|
+  ss.source_files = 'JLImgCache/classs/**/*'
+  end
 
+  s.subspec 'Demo1234' do |qq|
+    qq.source_files = 'JLImgCache/demo/**/*'
+  end
+  
+  s.subspec 'Cappp' do |qq|
+    qq.source_files = 'JLImgCache/Cappp/**/*'
+  end
 end

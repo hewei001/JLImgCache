@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		3DD030F7212FE92B00BF47BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD030F6212FE92B00BF47BF /* AppDelegate.m */; };
-		3DD030FA212FE92B00BF47BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD030F9212FE92B00BF47BF /* ViewController.m */; };
 		3DD030FD212FE92B00BF47BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD030FB212FE92B00BF47BF /* Main.storyboard */; };
 		3DD030FF212FE92B00BF47BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD030FE212FE92B00BF47BF /* Assets.xcassets */; };
 		3DD03102212FE92B00BF47BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD03100212FE92B00BF47BF /* LaunchScreen.storyboard */; };
 		3DD03105212FE92C00BF47BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03104212FE92C00BF47BF /* main.m */; };
 		3DD0310F212FE92C00BF47BF /* JLImgCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0310E212FE92C00BF47BF /* JLImgCacheTests.m */; };
 		3DD0311A212FE92C00BF47BF /* JLImgCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03119212FE92C00BF47BF /* JLImgCacheUITests.m */; };
-		3DD0312E212FE96600BF47BF /* JLImgDownIoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03128212FE96600BF47BF /* JLImgDownIoad.m */; };
-		3DD0312F212FE96600BF47BF /* JLImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD03129212FE96600BF47BF /* JLImgCache.m */; };
-		3DD03130212FE96600BF47BF /* UIImageView+JLloadimg.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD0312A212FE96600BF47BF /* UIImageView+JLloadimg.m */; };
-		784A24012382A2D3003322AB /* JLImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 784A24002382A2D3003322AB /* JLImgView.m */; };
+		7855960D2383E44500C010BE /* JLImgDownIoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596022383E44500C010BE /* JLImgDownIoad.m */; };
+		7855960E2383E44500C010BE /* JLImgCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596032383E44500C010BE /* JLImgCache.m */; };
+		7855960F2383E44500C010BE /* JLImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596042383E44500C010BE /* JLImgView.m */; };
+		785596102383E44500C010BE /* JLxxNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596092383E44500C010BE /* JLxxNet.m */; };
+		785596112383E44500C010BE /* UIImageView+JLloadimg.m in Sources */ = {isa = PBXBuildFile; fileRef = 7855960A2383E44500C010BE /* UIImageView+JLloadimg.m */; };
+		785596152383E8F500C010BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596132383E8F500C010BE /* ViewController.m */; };
+		785596182383E94B00C010BE /* asfasf.m in Sources */ = {isa = PBXBuildFile; fileRef = 785596172383E94B00C010BE /* asfasf.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +44,6 @@
 		3DD030F2212FE92B00BF47BF /* JLImgCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLImgCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD030F5212FE92B00BF47BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DD030F6212FE92B00BF47BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DD030F8212FE92B00BF47BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3DD030F9212FE92B00BF47BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3DD030FC212FE92B00BF47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DD030FE212FE92B00BF47BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DD03101212FE92B00BF47BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,14 +55,20 @@
 		3DD03115212FE92C00BF47BF /* JLImgCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLImgCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD03119212FE92C00BF47BF /* JLImgCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgCacheUITests.m; sourceTree = "<group>"; };
 		3DD0311B212FE92C00BF47BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DD03128212FE96600BF47BF /* JLImgDownIoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLImgDownIoad.m; sourceTree = "<group>"; };
-		3DD03129212FE96600BF47BF /* JLImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLImgCache.m; sourceTree = "<group>"; };
-		3DD0312A212FE96600BF47BF /* UIImageView+JLloadimg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JLloadimg.m"; sourceTree = "<group>"; };
-		3DD0312B212FE96600BF47BF /* JLImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgCache.h; sourceTree = "<group>"; };
-		3DD0312C212FE96600BF47BF /* JLImgDownIoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgDownIoad.h; sourceTree = "<group>"; };
-		3DD0312D212FE96600BF47BF /* UIImageView+JLloadimg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JLloadimg.h"; sourceTree = "<group>"; };
-		784A23FF2382A2D3003322AB /* JLImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLImgView.h; sourceTree = "<group>"; };
-		784A24002382A2D3003322AB /* JLImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLImgView.m; sourceTree = "<group>"; };
+		785596022383E44500C010BE /* JLImgDownIoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLImgDownIoad.m; sourceTree = "<group>"; };
+		785596032383E44500C010BE /* JLImgCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLImgCache.m; sourceTree = "<group>"; };
+		785596042383E44500C010BE /* JLImgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLImgView.m; sourceTree = "<group>"; };
+		785596052383E44500C010BE /* JLImgCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgCache.h; sourceTree = "<group>"; };
+		785596062383E44500C010BE /* JLImgDownIoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgDownIoad.h; sourceTree = "<group>"; };
+		785596072383E44500C010BE /* JLImgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLImgView.h; sourceTree = "<group>"; };
+		785596092383E44500C010BE /* JLxxNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLxxNet.m; sourceTree = "<group>"; };
+		7855960A2383E44500C010BE /* UIImageView+JLloadimg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JLloadimg.m"; sourceTree = "<group>"; };
+		7855960B2383E44500C010BE /* JLxxNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLxxNet.h; sourceTree = "<group>"; };
+		7855960C2383E44500C010BE /* UIImageView+JLloadimg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JLloadimg.h"; sourceTree = "<group>"; };
+		785596132383E8F500C010BE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		785596142383E8F500C010BE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		785596162383E94B00C010BE /* asfasf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = asfasf.h; sourceTree = "<group>"; };
+		785596172383E94B00C010BE /* asfasf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = asfasf.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,11 +119,11 @@
 		3DD030F4212FE92B00BF47BF /* JLImgCache */ = {
 			isa = PBXGroup;
 			children = (
-				3DD03127212FE96600BF47BF /* JLImgCache */,
+				785596122383E8F500C010BE /* Cappp */,
+				785596082383E44500C010BE /* Classs1234 */,
+				785596012383E44500C010BE /* Demo1234 */,
 				3DD030F5212FE92B00BF47BF /* AppDelegate.h */,
 				3DD030F6212FE92B00BF47BF /* AppDelegate.m */,
-				3DD030F8212FE92B00BF47BF /* ViewController.h */,
-				3DD030F9212FE92B00BF47BF /* ViewController.m */,
 				3DD030FB212FE92B00BF47BF /* Main.storyboard */,
 				3DD030FE212FE92B00BF47BF /* Assets.xcassets */,
 				3DD03100212FE92B00BF47BF /* LaunchScreen.storyboard */,
@@ -145,19 +151,39 @@
 			path = JLImgCacheUITests;
 			sourceTree = "<group>";
 		};
-		3DD03127212FE96600BF47BF /* JLImgCache */ = {
+		785596012383E44500C010BE /* Demo1234 */ = {
 			isa = PBXGroup;
 			children = (
-				3DD03128212FE96600BF47BF /* JLImgDownIoad.m */,
-				3DD03129212FE96600BF47BF /* JLImgCache.m */,
-				3DD0312A212FE96600BF47BF /* UIImageView+JLloadimg.m */,
-				3DD0312B212FE96600BF47BF /* JLImgCache.h */,
-				3DD0312C212FE96600BF47BF /* JLImgDownIoad.h */,
-				3DD0312D212FE96600BF47BF /* UIImageView+JLloadimg.h */,
-				784A23FF2382A2D3003322AB /* JLImgView.h */,
-				784A24002382A2D3003322AB /* JLImgView.m */,
+				785596022383E44500C010BE /* JLImgDownIoad.m */,
+				785596032383E44500C010BE /* JLImgCache.m */,
+				785596042383E44500C010BE /* JLImgView.m */,
+				785596052383E44500C010BE /* JLImgCache.h */,
+				785596062383E44500C010BE /* JLImgDownIoad.h */,
+				785596072383E44500C010BE /* JLImgView.h */,
 			);
-			path = JLImgCache;
+			path = Demo1234;
+			sourceTree = "<group>";
+		};
+		785596082383E44500C010BE /* Classs1234 */ = {
+			isa = PBXGroup;
+			children = (
+				785596092383E44500C010BE /* JLxxNet.m */,
+				7855960A2383E44500C010BE /* UIImageView+JLloadimg.m */,
+				7855960B2383E44500C010BE /* JLxxNet.h */,
+				7855960C2383E44500C010BE /* UIImageView+JLloadimg.h */,
+			);
+			path = Classs1234;
+			sourceTree = "<group>";
+		};
+		785596122383E8F500C010BE /* Cappp */ = {
+			isa = PBXGroup;
+			children = (
+				785596132383E8F500C010BE /* ViewController.m */,
+				785596142383E8F500C010BE /* ViewController.h */,
+				785596162383E94B00C010BE /* asfasf.h */,
+				785596172383E94B00C010BE /* asfasf.m */,
+			);
+			path = Cappp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,13 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD030FA212FE92B00BF47BF /* ViewController.m in Sources */,
-				3DD0312F212FE96600BF47BF /* JLImgCache.m in Sources */,
+				7855960E2383E44500C010BE /* JLImgCache.m in Sources */,
+				7855960F2383E44500C010BE /* JLImgView.m in Sources */,
+				785596152383E8F500C010BE /* ViewController.m in Sources */,
 				3DD03105212FE92C00BF47BF /* main.m in Sources */,
-				784A24012382A2D3003322AB /* JLImgView.m in Sources */,
-				3DD0312E212FE96600BF47BF /* JLImgDownIoad.m in Sources */,
-				3DD03130212FE96600BF47BF /* UIImageView+JLloadimg.m in Sources */,
+				785596112383E44500C010BE /* UIImageView+JLloadimg.m in Sources */,
+				785596182383E94B00C010BE /* asfasf.m in Sources */,
+				7855960D2383E44500C010BE /* JLImgDownIoad.m in Sources */,
 				3DD030F7212FE92B00BF47BF /* AppDelegate.m in Sources */,
+				785596102383E44500C010BE /* JLxxNet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
